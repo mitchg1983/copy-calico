@@ -1,0 +1,265 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+.TopBarMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.TopBarLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100px;
+    color: black;
+}
+
+.TopBarRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.MenuIcon {
+    color: darkgray;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    margin: 1px;
+    border: solid 1px #5F6367;
+    Background-color: #5F6367;
+}
+
+.MenuIconButton {
+    padding: 1px;
+    margin: 3px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.MainLogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.SearchBox {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.SearchField {
+    width: 600px;
+    height: 50px;
+    border: solid lightgray 1px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MagIcon {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MagDraw {
+    color: #000;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 12px;
+    height: 12px;
+    border: solid 1px currentColor;
+    border-radius: 100%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.MagDraw:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    height: 6px;
+    width: 1px;
+    background-color: currentColor;
+}
+
+.MicIcon {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MicDraw {
+    color: #000;
+    position: absolute;
+    margin-left: 1px;
+    margin-top: 1px;
+    width: 9px;
+    height: 7px;
+    border-left: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    border-bottom: solid 1px currentColor;
+    border-radius: 0 0 50% 50%;
+}
+
+.MicDraw:before {
+    content: '';
+    position: absolute;
+    left: 1px;
+    top: -6px;
+    width: 5px;
+    height: 10px;
+    border: solid 1px currentColor;
+    border-radius: 4px;
+}
+
+.MicDraw:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    bottom: -4px;
+    width: 1px;
+    height: 4px;
+    background-color: currentColor;
+}
+
+.SearchButtons {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.StdBtn {
+    padding: 12px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F8F9FA;
+}
+
+.ProfilePic {
+    content: '';
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    border: solid brown 2px;
+    border-radius: 50%;
+}
+
+.ProfilePic:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 28px;
+    width: 28px;
+    border: solid black 1px;
+    border-radius: 50%;
+}
+
+.ProfPicHouse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 36px;
+}
+
+.Notice {
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NoBlue {
+    a:link {
+        text-decoration: none;
+    }
+    
+    a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    a:active {
+        text-decoration: underline;
+    }
+}
+
+.BotBar {
+    height: 40px;
+    background-color: #F8F9FA;
+    bottom: 0%;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #7F8488;
+}
+
+.BotBarLeft {
+    display: flex;
+    height: 40px;
+    width: 310px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.BotBarRight {
+    display: flex;
+    height: 40px;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.BotBarCent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 1px;
+}
